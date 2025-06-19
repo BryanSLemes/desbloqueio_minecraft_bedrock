@@ -1,0 +1,21 @@
+Passo a Passo para desbloquear o Minecraft Bedrock:
+
+1 - Execute o arquivo desbloqueio.bat como administrador;
+
+2 - Ao finalizar a execução o programa vai abrir um prompt com algumas mensagens;
+
+3 - Caso a mensagem final seja "Minecraft Desbloqueado com sucesso" seu Minecraft foi desbloqueado;
+
+4 - Caso a mensagem final seja "Minecraft NAO Desbloqueado." leia as mensagens anteriores para entender porque o Minecraft não foi desbloqueado;
+
+
+Informações sobre o programa:
+
+Para efetuar o desbloqueio do Minecraft o programa:
+    * Faz um backup do arquivo Windows.ApplicationModel.Store.dll na pasta Backup;
+    * Apaga o arquivo Windows.ApplicationModel.Store.dll na pasta System32;
+    * Cola o arquivo Windows.ApplicationModel.Store.dll da pasta arquivo_desbloqueio na pasta System32 para finalizar o desbloqueio do Minecraft;
+
+Toda a lógica do software está no arquivo desbloqueio.bat.
+
+Licença do Software no arquivo LICENSE.
