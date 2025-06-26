@@ -62,10 +62,7 @@ Ao executar o script, o seguinte fluxo será seguido automaticamente:
 Este projeto utiliza o [**Unlocker**](http://www.emptyloop.com/unlocker/) para desbloquear e apagar o arquivo `Windows.ApplicationModel.Store.dll` localizado na pasta `System32`.  
 O Unlocker é uma ferramenta gratuita que permite manipular arquivos bloqueados por processos do sistema operacional.
 
->  <br>
-
 > 🔗 [Download Unlocker Portable (MajorGeeks)](https://www.majorgeeks.com/files/details/unlocker_portable.html)  
-> <br>
 
 
 ## Informações do Script
