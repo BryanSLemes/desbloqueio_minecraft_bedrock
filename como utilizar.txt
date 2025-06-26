@@ -8,12 +8,20 @@ Passo a Passo para desbloquear o Minecraft Bedrock:
 
 4 - Caso a mensagem final seja "Minecraft NAO Desbloqueado." leia as mensagens anteriores para entender porque o Minecraft não foi desbloqueado;
 
+Dependência de execução Unlocker
+
+Este projeto utiliza o Unlocker, Site oficial: http://www.emptyloop.com/unlocker/
+Para desbloquear e apagar o arquivo Windows.ApplicationModel.Store.dll localizado na pasta System32.  
+O Unlocker é uma ferramenta gratuita que permite manipular arquivos bloqueados por processos do sistema operacional.
+
+Download Unlocker Portable:
+Link: https://www.majorgeeks.com/files/details/unlocker_portable.html
 
 Informações sobre o programa:
 
 Para efetuar o desbloqueio do Minecraft o programa:
     * Faz um backup do arquivo Windows.ApplicationModel.Store.dll na pasta Backup;
-    * Apaga o arquivo Windows.ApplicationModel.Store.dll na pasta System32;
+    * Desbloqueia e apaga o arquivo Windows.ApplicationModel.Store.dll na pasta System32 com Unlocker;
     * Cola o arquivo Windows.ApplicationModel.Store.dll da pasta arquivo_desbloqueio na pasta System32 para finalizar o desbloqueio do Minecraft;
 
 Toda a lógica do software está no arquivo desbloqueio.bat.

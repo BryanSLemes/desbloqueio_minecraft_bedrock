@@ -9,6 +9,8 @@ O objetivo deste script é tornar o processo de desbloqueio do Minecraft mais á
 
 <h1 id="executar-projeto">Como Executar o projeto</h1>
 
+### Este desbloqueio só funciona em sistemas operacionais WINDOWS 10 e 11
+
 ## Clone o repositório
 Baixe o projeto via Git:
 
@@ -38,6 +40,11 @@ desbloqueio.bat
 <img src="imgs/adm.png" alt="Executar como administrador" width="650">
 <img src="imgs/confirmar.png" alt="Confirmação do UAC" width="650">
 
+### Caso a execução do script seja bloqueada, conforme demonstrado na imagem abaixo, siga o passo a passo indicado para prosseguir com o desbloqueio do Minecraft:
+
+<img src="imgs/block.png" alt="Bloqueio do Windows" width="400">
+<img src="imgs/permitir.png" alt="Permitir Execução Script" width="400">
+
 ## Resultado da Execução
 
 Ao executar o script, o seguinte fluxo será seguido automaticamente:
@@ -48,6 +55,19 @@ Ao executar o script, o seguinte fluxo será seguido automaticamente:
 
 <img src="imgs/resultado.png" alt="Mensagem final do script" width="650">
 
+---
+
+## Dependência: Unlocker
+
+Este projeto utiliza o [**Unlocker**](http://www.emptyloop.com/unlocker/) para desbloquear e apagar o arquivo `Windows.ApplicationModel.Store.dll` localizado na pasta `System32`.  
+O Unlocker é uma ferramenta gratuita que permite manipular arquivos bloqueados por processos do sistema operacional.
+
+>  <br>
+
+> 🔗 [Download Unlocker Portable (MajorGeeks)](https://www.majorgeeks.com/files/details/unlocker_portable.html)  
+> <br>
+
+
 ## Informações do Script
 💡 Toda a lógica do programa está implementada no arquivo desbloqueio.bat
 
@@ -55,7 +75,7 @@ Ao executar o script, o seguinte fluxo será seguido automaticamente:
     O programa criará uma cópia de segurança do arquivo Windows.ApplicationModel.Store.dll antes de prosseguir.
 
 2. Remoção do Arquivo Windows.ApplicationModel.Store.dll da pasta System32:<br>
-    O programa apaga o arquivo Windows.ApplicationModel.Store.dll da pasta System32.
+    O programa utiliza o Unlocker para desbloquear e apagar o arquivo Windows.ApplicationModel.Store.dll localizado na pasta System32.
 
 3. Copia do Arquivo de Desbloqueio na pasta System32:<br>
     Arquivo de Desbloqueio Windows.ApplicationModel.Store.dll presente na pasta arquivo_desbloqueio é copiado para C:\Windows\System32, concluindo o processo de desbloqueio do Minecraft.
