@@ -27,6 +27,15 @@ Selecione Download ZIP
 <img src="imgs/code.png" alt="Botão Code no GitHub" width="650"> 
 <img src="imgs/zip.png" alt="Baixar como ZIP" width="650">
 
+## Requisitos
+
+1. Ter o Minecraft instalado e já ter o aberto pelo menos uma vez.
+
+2. Ter o Microsoft Visual C++ instalado <br>
+ Obs: Caso você não o tenha instalado é possível baixá-lo através da pasta .\desbloqueio_minecraft_bedrock\arquivo_desbloqueio\Requerimentos. <br>
+ Execute o arquivo VC_redist.x64.exe para baixar as dependências.
+
+
 ## Execute o script
 
 1. Extraia o conteúdo do projeto (caso tenha baixado o ZIP).
@@ -55,24 +64,15 @@ Ao executar o script, o seguinte fluxo será seguido automaticamente:
 
 <img src="imgs/resultado.png" alt="Mensagem final do script" width="650">
 
----
+## Ao Executar o Minecraft
 
-## Dependência: Unlocker
+Será aberta uma página da Web, apenas feche-a.
 
-Este projeto utiliza o [**Unlocker**](http://www.emptyloop.com/unlocker/) para desbloquear e apagar o arquivo `Windows.ApplicationModel.Store.dll` localizado na pasta `System32`.  
-O Unlocker é uma ferramenta gratuita que permite manipular arquivos bloqueados por processos do sistema operacional.
-
-> 🔗 [Download Unlocker Portable (MajorGeeks)](https://www.majorgeeks.com/files/details/unlocker_portable.html)  
-
+<br>
 
 ## Informações do Script
 💡 Toda a lógica do programa está implementada no arquivo desbloqueio.bat
 
-1. Backup do Arquivo Windows.ApplicationModel.Store.dll:<br>
-    O programa criará uma cópia de segurança do arquivo Windows.ApplicationModel.Store.dll antes de prosseguir.
+1. O Programa copiará a pasta .\arquivo_desbloqueio\Juansekill para a pasta       C:\Users\usuario_atual\AppData\Roaming\Minecraft Bedrock.
 
-2. Remoção do Arquivo Windows.ApplicationModel.Store.dll da pasta System32:<br>
-    O programa utiliza o Unlocker para desbloquear e apagar o arquivo Windows.ApplicationModel.Store.dll localizado na pasta System32.
-
-3. Copia do Arquivo de Desbloqueio na pasta System32:<br>
-    Arquivo de Desbloqueio Windows.ApplicationModel.Store.dll presente na pasta arquivo_desbloqueio é copiado para C:\Windows\System32, concluindo o processo de desbloqueio do Minecraft.
+2. O Programa copiará o arquivo .\arquivo_desbloqueio\Juego\vcruntime140_1.dll para a pasta C:\XboxGames\Minecraft for Windows\Content.
