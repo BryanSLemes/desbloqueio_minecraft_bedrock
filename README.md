@@ -62,7 +62,7 @@ Ao executar o script, o seguinte fluxo será seguido automaticamente:
 
 ❌ Minecraft NÃO Desbloqueado. – Leia as mensagens anteriores para entender o motivo da falha.
 
-<img src="imgs/resultado.png" alt="Mensagem final do script" width="650">
+<img src="imgs/resultado_novo.png" alt="Mensagem final do script" width="650">
 
 ## Ao Executar o Minecraft
 
