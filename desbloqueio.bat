@@ -9,8 +9,8 @@ echo.
 :: ==========================================
 :: VARIAVEIS INICIAIS
 :: ==========================================
-set "pastaJuanse=C:\Users\%USERNAME%\AppData\Roaming\Minecraft Bedrock\Juansekill"
-set "pastaMC=C:\Users\%USERNAME%\AppData\Roaming\Minecraft Bedrock"
+set "pastaJuanse=%USERPROFILE%\AppData\Roaming\Minecraft Bedrock\Juansekill"
+set "pastaMC=%USERPROFILE%\AppData\Roaming\Minecraft Bedrock"
 set "origemJuanse=%~dp0arquivo_desbloqueio\Juansekill"
 set "origemDLL=%~dp0arquivo_desbloqueio\Juego\vcruntime140_1.dll"
 :: set "destinoDLL=C:\XboxGames\Minecraft for Windows\Content"
@@ -72,7 +72,10 @@ goto END
 :: echo ----------------------------------------------
 :: echo Minecraft Bedrock encontrado!
 :: echo Caminho: "%MC_PATH%"
-set "destinoDLL=%MC_PATH%"
+set "destinoDLL=%MC_PATH%\Content"
+set "destinoDLL=%destinoDLL:\Content\Content=\Content%"
+
+:: echo %destinoDLL%
 
 :: ==========================================
 :: PROCESSO 1 - COPIAR PASTA JUANSEKILL
