@@ -31,10 +31,6 @@ Selecione Download ZIP
 
 1. Ter o Minecraft instalado e já ter o aberto pelo menos uma vez.
 
-2. Ter o Microsoft Visual C++ instalado <br>
- Obs: Caso você não o tenha instalado é possível baixá-lo através da pasta .\desbloqueio_minecraft_bedrock\arquivo_desbloqueio\Requerimentos. <br>
- Execute o arquivo VC_redist.x64.exe para baixar as dependências.
-
 
 ## Execute o script
 
@@ -62,17 +58,15 @@ Ao executar o script, o seguinte fluxo será seguido automaticamente:
 
 ❌ Minecraft NÃO Desbloqueado. – Leia as mensagens anteriores para entender o motivo da falha.
 
-<img src="imgs/resultado_novo.png" alt="Mensagem final do script" width="650">
-
-## Ao Executar o Minecraft
-
-Será aberta uma página da Web, apenas feche-a.
+<img src="imgs/resultado_atual.png" alt="Mensagem final do script" width="650">
 
 <br>
 
 ## Informações do Script
 💡 Toda a lógica do programa está implementada no arquivo desbloqueio.bat
 
-1. O Programa copiará a pasta .\arquivo_desbloqueio\Juansekill para a pasta       C:\Users\usuario_atual\AppData\Roaming\Minecraft Bedrock.
+1. O Programa libera o acesso à pasta C:\Program Files\WindowsApps aos administradores;
 
-2. O Programa copiará o arquivo .\arquivo_desbloqueio\Juego\vcruntime140_1.dll para a pasta C:\XboxGames\Minecraft for Windows\Content.
+2. O Programa copiará o arquivo .\arquivo_desbloqueio\vcruntime140_1.dll para a pasta C:\Program Files\WindowsApps\MICROSOFT.MINECRAFTUWP...;
+
+3. O Programa copiará o arquivo .\arquivo_desbloqueio\MinecraftForFree.dll para a pasta C:\Users\conta\AppData\Roaming\Minecraft Bedrock\mods;

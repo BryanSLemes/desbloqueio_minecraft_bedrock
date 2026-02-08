@@ -2,28 +2,21 @@ Requisitos:
 
 1. Ter o Minecraft instalado e já ter o aberto pelo menos uma vez.
 
-2. Ter o Microsoft Visual C++ instalado
- Obs: Caso você não o tenha instalado é possível baixá-lo através da pasta .\desbloqueio_minecraft_bedrock\arquivo_desbloqueio\Requerimentos
- Execute o arquivo VC_redist.x64.exe para baixar as dependências.
-
 
 Passo a Passo para desbloquear o Minecraft Bedrock:
 
-1 - Execute o arquivo desbloqueio.bat como administrador;
+1 - Execute o arquivo desbloqueio.bat como administrador, com o minecraft fechado;
 
 2 - Ao finalizar a execução o programa vai abrir um prompt com algumas mensagens;
 
-3 - Caso a mensagem final seja "Minecraft Desbloqueado com sucesso" seu Minecraft foi desbloqueado;
-
-4 - Caso a mensagem final seja "Minecraft NAO Desbloqueado." leia as mensagens anteriores para entender porque o Minecraft não foi desbloqueado;
-
-5 - Ao abrir o minecraft será aberta uma página da Web, apenas feche-a;
+3 - Caso a mensagem final seja "Processo Concluido" seu Minecraft foi desbloqueado;
 
 Informações sobre o programa:
 
 Para efetuar o desbloqueio do Minecraft o programa:
-    * Copiar pasta .\arquivo_desbloqueio\Juansekill para a pasta C:\Users\usuario_atual\AppData\Roaming\Minecraft Bedrock;
-    * Copiar o arquivo .\arquivo_desbloqueio\Juego\vcruntime140_1.dll para a pasta C:\XboxGames\Minecraft for Windows\Content;
+    * Permite que a que administradores acessem a pasta C:\Program Files\WindowsApps;
+    * Copiar o arquivo .\arquivo_desbloqueio\vcruntime140_1.dll para a pasta C:\Program Files\WindowsApps\MICROSOFT.MINECRAFTUWP...;
+    * Copiar o arquivo .\arquivo_desbloqueio\MinecraftForFree.dll para a pasta C:\Users\conta\AppData\Roaming\Minecraft Bedrock\mods;
 
 Toda a lógica do software está no arquivo desbloqueio.bat.
 
